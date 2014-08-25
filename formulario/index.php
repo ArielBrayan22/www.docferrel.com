@@ -1,12 +1,15 @@
 <?php 
-echo "hola mundo";
-//incuyo a la clase de la base de datos(conexion.php)
-include_once('conexion.php');
-//creamos un nuevo objeto llamado data que es de tipo conexion
-$dato=new conexion();
-//recupero un dato de la conexion que es host, para ver qu ela clase funciona 
-echo "mi dato".$dato->host;
-echo "algo paso".$dato->db;
 
 
  ?>
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Conexion con base de datos</title>
+ </head>
+ <body>
+ 	<h2>Bienvenidos a la coexin con una base de datos MYSQL</h2>
+ 	<a href="formulario.php">Ir al formulario para registrar los datos</a>
+ 
+ </body>
+ </html>
